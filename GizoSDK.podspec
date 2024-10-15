@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.platform = :ios, '13.0'
   s.vendored_frameworks = 'GizoSDK.xcframework'
   s.dependency 'MapboxMaps', '10.12.3'
-  s.dependency 'MapboxNavigation', '2.12.0'
   s.dependency 'SnapKit', '5.6.0'
   s.libraries        = 'z', 'bz2', 'sqlite3'
   s.frameworks       = 'CoreML', 'SystemConfiguration'
