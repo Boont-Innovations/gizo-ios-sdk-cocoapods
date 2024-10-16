@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.dependency 'SnapKit', '5.6.0'
   s.libraries        = 'z', 'bz2', 'sqlite3'
   s.frameworks       = 'CoreML', 'SystemConfiguration'
-  s.exclude_files = ['**/Assets/**', '**/*.png', '**/*.jpg']
+  s.resource_bundles = ["MapboxNavigation/**/Assets.xcassets"]
 end
